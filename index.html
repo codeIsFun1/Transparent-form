@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Transparent Form</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+<body>
+  <table >
+<FORM>
+  <tr>
+  <td> <LABEL for="name">Name</LABEL></td>
+  <td > <input type="text" id="name" name="name" placeholder="Name"></td>
+  </tr>
+  <tr>
+  <td><LABEL for="email">Email</LABEL></td>
+ <td> <input type="email" id="email" name="email" placeholder="Email"></td>
+   </tr>
+  <tr>
+  <td><LABEL for="phn">Phone No</LABEL></td>
+  <td><input type="tel" id="phn" name="phn" placeholder="Phone-Number"></td>
+  </tr>
+  <tr>
+    <td><label for="gender">Gender</label></td>
+    <td><input  class="none" type="radio" id="male" name="gender"><label for="male" class="fs">Male</label>
+    <input class="none" type="radio" id="female" name="gender" ><label for="female" class="fs">Female</label>
+    <input class="none" type="radio" id="other" name="gender" ><label for="other" class="fs">Other</label>
+    </td>
+  </tr>
+  <tr>
+  <td><LABEL for="dob">Dob</LABEL></td>
+  <td><input type="date" id="dob" name="dob"></td>
+  </tr>
+  <tr>
+    <td><label for="activity">Activities</label></td>
+    <td><input class="none " type="checkbox" id="chess" name="chess"><label class="fs" for="chess">Chess</label>
+        <input class="none " type="checkbox" id="swim" name="swimming"><label class="fs" for="swim">Swimming</label>
+        <input class="none " type="checkbox" id="riding" name="riding"><label class="fs" for="riding">Bike Riding</label>
+    </td>
+  </tr>
+  <tr>
+    <tr>
+    <td><label for="select">Nationality</label></td>
+      <td><select name="select" id="select">
+        <option value="option">Option</option>
+        <option value="ind" >India</option>
+        <option value="aus" >Australia</option>
+        <option value="usa" >America</option>
+        <option value="can" >Canada</option>
+        <option value="rus" >Russia</option>
+      </select></td>
+    </td>
+  </tr>
+  <tr>
+  <td><LABEL for="address">Address</LABEL></td>
+  <td><textarea name="address" id="address" placeholder="Address"></textarea></td>
+    </tr>
+  <tr>
+  <td><LABEL for="upload">Upload</LABEL></td>
+  <td><input type="file" id="upload" name="upload"></td>
+    </tr>
+  <tr>
+  <td><LABEL for="password">Password</LABEL></td>
+ <td> <input type="password" id="password" name="password" placeholder="Password"></td>
+  </tr>
+  <tr>
+    <td colspan=2>
+  <input type="submit" id="submit" name="submit"></td>
+   </tr>
+</FORM>
+   </table>
+</body>
+   </html>

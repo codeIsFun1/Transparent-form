@@ -1,0 +1,115 @@
+*{
+  margin: 0;padding: 0;-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:monospace;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+   background:url("https://img.freepik.com/free-vector/background-with-mandala-designs_1308-37302.jpg?size=626&ext=jpg&ga=GA1.1.1549654912.1696360668&semt=sph");
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+table{
+  /* width:50%; */
+  background-color: transparent;
+  margin:2rem 0;
+  border-radius:1rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+table,td,tr{
+  border-collapse:collapse;
+  padding:0.8rem;
+}
+
+label{
+  font-size:1.5rem;
+  color:white
+}
+
+input{
+  text-align:center;
+  padding:6px;
+  width:60%;
+  border-radius:1rem;
+  outline:none;
+  border:none ;
+  color:red;
+}
+input:focus{
+  outline:none;
+}
+textarea{
+  text-align:center;
+  padding:6px;
+  width:100%;
+  border-radius:1rem;
+  outline:none;
+  border:none solid;
+  background-color: #EDE4FF;
+}
+.none{
+  width:10%; 
+}
+.fs{
+  font-size:12px;
+}
+#email,#name,#phn,#password,#dob,select{
+  background-color: #EDE4FF;
+  width:100%;
+}
+select{
+  padding:6px;
+  border-radius:1rem
+}
+#submit{
+  margin: 0 7rem;
+  width:50%;
+  font-size:1.5rem;
+  outline:none;
+  color:#FCC8D1;
+  border:0.2px solid #ede4ff;
+  background: rgba(55,82,163,0.1);
+  cursor:pointer;
+  
+}
+#submit:hover{
+  background-color: rgb(153,117,207);
+  border:none;
+  color:white;
+}
+
+input[type='file'] {
+  color: rgba(0, 0, 0, 0)
+}
+input[type=checkbox],input[type=radio]{
+  accent-color:#EDE4FF;
+}
+input[type=date]{
+  color:#caca
+}
+input[type=file]::file-selector-button {
+ 
+  border: 0 solid;
+  background: #EDE4FF;
+  padding:6px;
+  color: #cacad4;
+  border-radius:1rem;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(0.8)
+            brightness(100%)
+            sepia(100%)
+            saturate(10000%)
+            hue-rotate(180deg)
+            ;
+  
+      cursor:pointer;
+}
